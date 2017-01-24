@@ -17,13 +17,21 @@ public class TokenModel : MonoBehaviour {
         mat = GetComponent<Renderer>().material;
         mat.shader = Shader.Find("Transparent/Diffuse");
         mat.mainTexture = Resources.Load<Texture2D>("Textures/tile");
-        mat.color = new Color(0, 0, 0);
+        mat.color = Color.white;
     }
 	
-	
-	
-	// Update is called once per frame
-	void Update () {
+	public void setRed()
+    {
+        mat.color = Color.red;
+    }
+    public void setBlue()
+    {
+        mat.color = Color.blue;
+    }
+
+
+    // Update is called once per frame
+    void Update () {
 	
 	}
 }
