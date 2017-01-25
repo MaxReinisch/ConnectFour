@@ -158,7 +158,7 @@ public class Controller : MonoBehaviour {
     {
         int currX = x;
         int currY = y;
-        while (currX < BOARD_WIDTH && currY > 0)
+        while (currX < BOARD_WIDTH-1 && currY > 0)
         {
             currY--;
             currX++;

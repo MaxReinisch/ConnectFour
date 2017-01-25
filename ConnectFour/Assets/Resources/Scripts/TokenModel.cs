@@ -15,8 +15,8 @@ public class TokenModel : MonoBehaviour {
         name = "token model";
 
         mat = GetComponent<Renderer>().material;
-        mat.shader = Shader.Find("Transparent/Diffuse");
-        mat.mainTexture = Resources.Load<Texture2D>("Textures/tile");
+        mat.shader = Shader.Find("Standard");
+        mat.mainTexture = Resources.Load<Texture2D>("Textures/TokenNew");
         mat.color = Color.white;
     }
 	
