@@ -39,7 +39,7 @@ public class Token : MonoBehaviour {
 
     void OnMouseUp() {
         controller.addToColumn(realX);
-        MonoBehaviour.print(this.realX + ", " + this.realY);
+        //MonoBehaviour.print(this.realX + ", " + this.realY);
       
 
     }
